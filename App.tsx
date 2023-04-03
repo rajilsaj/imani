@@ -20,8 +20,12 @@ export default function App() {
     <WithSplashScreen isAppReady={isAppReady}>
       <NavigationContainer>
         <Stack.Navigator>
+          <Stack.Screen
+            options={{headerShown: false}}
+            name="Introduction"
+            component={IntroductionScreen}
+          />
           <Stack.Screen name="Home" component={HomeScreen} />
-          <Stack.Screen name="Introduction" component={IntroductionScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </WithSplashScreen>

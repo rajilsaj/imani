@@ -5968,6 +5968,11 @@
   "resolved" "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.17.tgz"
   "version" "0.71.17"
 
+"react-native-intro-carousel@^0.6.0":
+  "integrity" "sha512-2erVpBPamLOjOkPKqCNLgabGe2gOFowRpAmU5BJUGsUXT9Fd5RZO9TlnVQXU6MyMJ0QKKkngWbpTOzq9ElXwgg=="
+  "resolved" "https://registry.npmjs.org/react-native-intro-carousel/-/react-native-intro-carousel-0.6.0.tgz"
+  "version" "0.6.0"
+
 "react-native-reanimated@^3.0.2":
   "integrity" "sha512-8Et90yTI9yxchGbDP79k391XZqc/64zNbASbGy8X3Vgv4EbZ1M3IkKwcIbZmbVwpA804VJ6V9nJAGUh9fP0LrA=="
   "resolved" "https://registry.npmjs.org/react-native-reanimated/-/react-native-reanimated-3.0.2.tgz"
