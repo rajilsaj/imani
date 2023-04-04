@@ -21,6 +21,7 @@ module.exports = {
         black: '#000',
         white: '#fff',
         bgform: '#70858A',
+        bgbutton1: '#49467E',
         azure: {
           50: '#f4f9fe',
           100: '#e9f2fe',
