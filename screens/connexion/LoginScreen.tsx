@@ -3,9 +3,11 @@ import {SafeAreaView, Text, View} from 'react-native';
 
 const LoginScreen = () => {
   return (
-    <SafeAreaView>
-      <View className="flex-1 items-center justify-center bg-black">
-        <Text>You are on the Home page</Text>
+    <SafeAreaView className="bg-green-900 h-full">
+      <View>
+        <Text className="text-center mt-5 text-white">
+          This is the login screen of my application
+        </Text>
       </View>
     </SafeAreaView>
   );
