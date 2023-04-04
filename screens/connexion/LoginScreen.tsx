@@ -1,10 +1,10 @@
 import * as React from 'react';
-import {View, Text, SafeAreaView} from 'react-native';
+import {SafeAreaView, Text, View} from 'react-native';
 
 const LoginScreen = () => {
   return (
     <SafeAreaView>
-      <View>
+      <View className="flex-1 items-center justify-center bg-black">
         <Text>You are on the Home page</Text>
       </View>
     </SafeAreaView>
