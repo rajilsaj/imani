@@ -7,12 +7,20 @@ module.exports = {
     './components/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
+    fontFamily: {
+      poppins: ['Poppins-Regular'],
+      poppinsBold: ['Poppins-Bold'],
+      poppinsThin: ['Poppins-Thin'],
+      poppinsBlack: ['Poppins-Black'],
+      poppinsLight: ['Poppins-Light'],
+      poppinsMedium: ['Poppins-Medium'],
+    },
     extend: {
       colors: {
         transparent: 'transparent',
         black: '#000',
         white: '#fff',
-        bgform: '#1E293B',
+        bgform: '#70858A',
         azure: {
           50: '#f4f9fe',
           100: '#e9f2fe',

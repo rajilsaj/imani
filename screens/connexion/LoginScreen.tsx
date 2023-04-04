@@ -13,8 +13,8 @@ const LoginScreen = () => {
     <SafeAreaView className="bg-azure-400 h-full flex-1">
       <View className="p-5 mt-20 ">
         <KeyboardAvoidingView enabled>
-          <View className="bg-bgform p-10  bg-slate-700/50 border border-slate-500/30 rounded-2xl">
-            <Text className="text-center text-4xl	 text-white uppercase font-normal ">
+          <View className="p-10  bg-bgform rounded-3xl">
+            <Text className="text-center text-4xl font-poppinsMedium	 text-white uppercase  ">
               Connexion
             </Text>
             <TextInput placeholder="Entrer votre Email" />
