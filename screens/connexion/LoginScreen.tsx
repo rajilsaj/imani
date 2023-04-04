@@ -1,13 +1,30 @@
 import * as React from 'react';
-import {SafeAreaView, Text, View} from 'react-native';
+import {
+  KeyboardAvoidingView,
+  SafeAreaView,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 
 const LoginScreen = () => {
   return (
-    <SafeAreaView className="bg-azure-400 h-full">
-      <View>
-        <Text className="text-center mt-5 text-white">
-          This is the login screen of my application
-        </Text>
+    <SafeAreaView className="bg-azure-400 h-full flex-1">
+      <View className="p-5 mt-20 ">
+        <KeyboardAvoidingView enabled>
+          <View className="bg-bgform p-10  bg-slate-700/50 border border-slate-500/30 rounded-2xl">
+            <Text className="text-center text-4xl	 text-white uppercase font-normal ">
+              Connexion
+            </Text>
+            <TextInput placeholder="Entrer votre Email" />
+            <TextInput placeholder="Entrer votre Mot de Passe" />
+            <TouchableOpacity>
+              <Text>LOGIN</Text>
+            </TouchableOpacity>
+            <Text>New Here ? Register</Text>
+          </View>
+        </KeyboardAvoidingView>
       </View>
     </SafeAreaView>
   );

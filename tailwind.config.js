@@ -12,6 +12,7 @@ module.exports = {
         transparent: 'transparent',
         black: '#000',
         white: '#fff',
+        bgform: '#1E293B',
         azure: {
           50: '#f4f9fe',
           100: '#e9f2fe',
