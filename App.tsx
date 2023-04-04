@@ -9,6 +9,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import LoginScreen from './screens/connexion/LoginScreen';
 import RegisterScreen from './screens/connexion/RegisterScreen';
+import PwdForgottenScreen from './screens/connexion/PwdForgottenScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -22,6 +23,11 @@ export default function App() {
     <WithSplashScreen isAppReady={isAppReady}>
       <NavigationContainer>
         <Stack.Navigator>
+          <Stack.Screen
+            options={{headerShown: false}}
+            name="PwdForgottenScreen"
+            component={PwdForgottenScreen}
+          />
           <Stack.Screen
             options={{headerShown: false}}
             name="Inscription"
