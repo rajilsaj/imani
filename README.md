@@ -1,15 +1,21 @@
-# imani
+##  imani
 Appointment Scheduling and Patient Management System in Hospitals
-Imani Appointment Scheduling and Patient Management System in Hospitals
-Imani is a React Native application that allows users to schedule appointments with doctors, view their medical records, and manage their prescriptions. The application is built on top of Supabase, a cloud-based database and API service.
 
-Features
-Appointment scheduling
-Medical record viewing
-Prescription management
-User authentication
-Role-based access control
-Getting Started
+Imani is a mobile application that allows users to schedule appointments with doctors, view their medical records, and manage their prescriptions. 
+The application is built :
+* on top of Supabase, 
+* a cloud-based database 
+* and API service.
+
+### Features
+1. Appointment scheduling
+2. Medical record viewing
+3. Prescription management
+4. User authentication
+5. Role-based access control
+6. Getting Started
+
+### Getting Started
 To get started with Imani, you will need to:
 
 Install Node.js and NPM
